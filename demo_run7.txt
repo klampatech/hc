@@ -1,0 +1,249 @@
+Loading dataset...
+Loaded 100,000 jobs in 59.2s
+
+
+################################################################################
+# DEMO 1: SINGLE-TURN SEARCHES
+################################################################################
+
+================================================================================
+Query: "senior software engineer remote"
+Tokens used: 237
+Results: 10 (showing top 5)
+================================================================================
+  1. Senior Full Stack Software Engineer - Zealogics | Remote | Tech Hub
+     Skills: React, Angular, Vue, Java, Python, Node.js
+  2. Senior Software Engineer - Full Steam | Remote | $68K-$145K | Retail Store
+     Skills: C#, JavaScript/TypeScript, React, REST API, .NET/.NET Core, Microsoft Azure
+  3. Senior Full Stack Software Engineer - Drips | Remote | Tech Hub
+     Skills: AngularJS, React, HTML5, JavaScript, CSS, SignalR
+  4. Senior Software Engineer - Postman | Remote | $210K-$240K | Tech Hub
+     Skills: TypeScript
+  5. Senior Software Engineer - ATTOM Data Solutions | Remote | $125K-$146K | Tech Hub
+     Skills: C#, ASP.NET, .NET Core, JavaScript, Angular, React
+  Running total: 237 tokens
+
+================================================================================
+Query: "data science internships"
+Tokens used: 226
+Results: 10 (showing top 5)
+================================================================================
+  1. Data Science Intern - XPO, Inc. | Boston, Massachusetts, United States | Warehouse
+     Skills: Python, Pandas, NumPy, Scikit-learn, SQL, Machine Learning
+  2. Intern - WEX | Portland or United States | $52K-$62K | Headquarters
+     Skills: Python, Data Science, Machine Learning
+  3. Business Intelligence/Data Analytics Intern - Middlesex Savings Bank | Westborough, Massachusetts, United States | $34K-$41K | Bank
+     Skills: SQL, Data Governance, Data Management, Data Analytics, Data Visualization, Microsoft Excel
+  4. Supply Chain Data Analysis Intern - Jabil | St. Petersburg, Florida, United States | Factory
+     Skills: Excel, SQL, Python, R, Power BI, Tableau
+  5. Data Analyst - CodaMetrix | Boston, Massachusetts, United States | $73K-$94K | Office
+     Skills: SQL, Python, R
+  Running total: 463 tokens
+
+================================================================================
+Query: "product manager roles at early stage startups"
+Tokens used: 233
+Results: 10 (showing top 5)
+================================================================================
+  1. Senior Product Manager - Jerry.ai | Remote | $150K-$200K | Tech Startup
+  2. Product Manager - Jerry.ai | Remote | $120K-$170K | Startup
+     Skills: Product Management, Data Analytics, AI
+  3. Product Manager - Jerry.ai | Remote | $120K-$170K | Tech Startup
+     Skills: Product Management, Data Analytics, Stakeholder Management, Roadmapping, Experimentation, User Research
+  4. Senior Product Manager - Puzzle Financial | Remote | $167K-$189K | Tech Startup
+  5. Entrepreneur in Residence - FutureSight | Remote | Startup
+     Skills: Fundraising, Pitching, Product Development, Sales, Marketing, Design
+  Running total: 696 tokens
+
+================================================================================
+Query: "backend engineer jobs in New York paying over 150k"
+Tokens used: 247
+Results: 10 (showing top 5)
+================================================================================
+  1. Backend Software Engineer - Medal, Highlight, & General Intuition | New York City or San Francisco | $180K-$250K | Hospital
+     Skills: Backend development, Distributed systems, APIs, Databases, Async jobs, Queues
+  2. Backend Software Engineer - Semgrep | San Francisco or Boston or Denver or New York | $160K-$207K | Office
+     Skills: Typescript, Python, Flask, SQLAlchemy, Kubernetes, AWS
+  3. Staff Backend Software Engineer - Semgrep | San Francisco or New York or Boston or Denver | $202K-$238K | Tech Hub
+     Skills: Typescript, Python, Flask, SQLAlchemy, Kubernetes, AWS
+  4. Senior Software Engineer - Jerry.ai | Palo Alto or Orlando or Chicago or Boston or New York or Houston | $150K-$220K | Technology Hub
+     Skills: TypeScript, Nest.js, Next.js, React, React Native, Expo
+  5. Backend Software Engineer - OpenAI | San Francisco or New York City or Seattle | $185K-$385K | University
+     Skills: distributed systems, APIs, Go, Python, Rust, C++
+  Running total: 943 tokens
+
+================================================================================
+Query: "entry level design roles"
+Tokens used: 227
+Results: 10 (showing top 5)
+================================================================================
+  1. Design Professional - McMillan Pazdan Smith | Asheville or Charlotte or Charleston or Columbia or Greenville or Spartanburg or Augusta or Atlanta or Columbus or Huntsville or West Columbia | Architectural Firm
+     Skills: Autodesk Revit, Adobe Creative Suite, Microsoft Office
+  2. Associate Designer - Clare V. | Los Angeles, California, United States | $70K-$74K | Retail Store
+     Skills: Illustrator, Photoshop, CAD, Tech Packs, Line Sheets, Sketching
+  3. Designer - Ballinger | Philadelphia, Pennsylvania, United States | Architecture Studio
+     Skills: Adobe Creative Suite, Microsoft Office, Revit, AutoCAD, SketchUp, Enscape
+  4. Landscape Designer I - Terra Engineering | Chicago, Illinois, United States | $55K-$62K | Engineering Firm
+     Skills: CAD, Microsoft Office, Bluebeam, PowerPoint, Design Concepts, 3D Modeling
+  5. Assistant Designer - Nordstrom | Seattle or United States | $60K-$96K | Retail Store
+     Skills: Design, Sketching, Fabric Selection, Tech Packs, Adobe Creative Suite, MS Office
+  Running total: 1170 tokens
+
+================================================================================
+Query: "mission-driven nonprofit data roles"
+Tokens used: 1245
+Results: 10 (showing top 5)
+================================================================================
+  1. Donor Data Specialist - Springs Rescue Mission | Colorado Springs, Colorado, United States | $62K-$72K | Nonprofit
+     Skills: EveryAction, Bonterra, AvidAI, Google Analytics, Power BI, Excel
+  2. Director of Data Management - Wisconsin Foundation and Alumni Association | Madison, Wisconsin, United States | Nonprofit
+     Skills: Salesforce, CRM Data Management, Data Governance, Data Enrichment, Data Quality, Automation Tools
+  3. Director of Data Operations - University of Nevada Reno | Reno, Nevada, United States | Nonprofit
+     Skills: Data Governance, CRM Systems, Data Quality, Automation, Stakeholder Management
+  4. Director, Data & Analytics - North Texas Food Bank | Plano, Texas, United States | Nonprofit
+     Skills: Power BI, SQL Server, Data Governance, Data Architecture, Data Warehousing, ETL
+  5. Specialist, Data Systems and Reporting - ADL (Anti-Defamation League) | New York City, New York, United States | $65K-$75K | Nonprofit
+     Skills: Salesforce, Data Management, Reporting Tools
+  Running total: 2415 tokens
+
+################################################################################
+# DEMO 2: MULTI-TURN REFINEMENT FLOWS
+################################################################################
+
+--------------------------------------------------------------------------------
+Flow 1: Data Science -> Social Good -> Remote
+--------------------------------------------------------------------------------
+
+================================================================================
+Turn 1
+Query: "data science jobs"
+Tokens used: 220
+Results: 10 (showing top 5)
+================================================================================
+  1. Senior Manager, Data Science - American Express | New York City, New York, United States | $104K-$175K | Office
+     Skills: Python, SQL, TensorFlow, PyTorch, scikit-learn, Hadoop
+  2. Senior Data Science Analyst - Mayo Clinic | Remote | $125K-$182K | Nonprofit
+     Skills: Data Science, Machine Learning, Statistical Modeling, Data Mining, Neural Networks, Programming
+  3. Vice President, Data Science - Duetto Research | Remote | Hospital
+     Skills: Leadership, Data Science, Machine Learning, Forecasting, Pricing Optimization, Causal Inference
+  4. Director, Data Science - DailyPay | Remote | $240K-$336K | Tech Hub
+     Skills: Python, PySpark, scikit-learn, TensorFlow, PyTorch, SQL
+  5. Data Science Manager - Reddit | Remote | $217K-$304K | Tech Hub
+     Skills: NumPy, Github, SQL, Regression Models, Tensorflow, UNIX Shell/ Bash Scripting
+  Active filters: none
+
+================================================================================
+Turn 2
+Query: "at companies or non-profits that care about social good"
+Tokens used: 282
+Results: 10 (showing top 5)
+================================================================================
+  1. Senior Data Science Analyst - Mayo Clinic | Remote | $125K-$182K | Nonprofit
+     Skills: Data Science, Machine Learning, Statistical Modeling, Data Mining, Neural Networks, Programming
+  2. Manager II Data Science - Navy Federal Financial Group | Vienna, Virginia, United States | $150K-$206K | Nonprofit
+     Skills: Python, R, TensorFlow, SQL
+  3. Data Scientist - Noblis | Chantilly, Virginia, United States | $82K-$228K | Nonprofit
+     Skills: Python, R, EDA, Feature Engineering, Statistics, Machine Learning
+  4. Data Scientist - Sandag | San Diego, California, United States | $74K-$115K | Nonprofit
+     Skills: Python, R, ArcGIS, SQL, Jupyter, Power BI
+  5. Healthcare Data Scientist - University of Maryland Medical Center (UMMS) | Linthicum Heights, Maryland, United States | $125K-$145K | Nonprofit
+     Skills: Machine Learning, AI, Statistics, Operations Research, Python, R
+  Active filters: nonprofit
+
+================================================================================
+Turn 3
+Query: "make it remote"
+Tokens used: 279
+Results: 10 (showing top 5)
+================================================================================
+  1. Senior Data Science Analyst - Mayo Clinic | Remote | $125K-$182K | Nonprofit
+     Skills: Data Science, Machine Learning, Statistical Modeling, Data Mining, Neural Networks, Programming
+  2. Data Engineer - Northwestern Medicine | Remote | Nonprofit
+     Skills: SQL, ETL, Microsoft SSIS, Azure Data Factory, OLAP, Power BI
+  3. Data Engineer - Ventura TRAVEL | Remote | Nonprofit
+     Skills: Python, SQL, Git, AI tools
+  4. Data Engineer - Ventura TRAVEL | Remote | Nonprofit
+     Skills: Python, SQL, Git, AI Tools
+  5. Data Analyst - Unknown | Remote | $65K-$85K | Nonprofit Organization
+     Skills: R, Data Analysis, Epidemiology, Statistical Methods, Qualitative Analysis, Descriptive Statistics
+  Active filters: remote, nonprofit
+
+--------------------------------------------------------------------------------
+Flow 2: ML Engineer -> Startups -> Senior
+--------------------------------------------------------------------------------
+
+================================================================================
+Turn 1
+Query: "machine learning engineer"
+Tokens used: 220
+Results: 10 (showing top 5)
+================================================================================
+  1. Machine Learning Engineer - CompassMSP | New York, New York, United States | $120K-$200K | Office
+     Skills: Python, Pandas, Scikit-learn, TensorFlow, PyTorch, MLOps
+  2. Machine Learning Engineer - Databricks | San Francisco, California, United States | $190K-$285K | Tech Hub
+     Skills: Python, TensorFlow, PyTorch, ML Pipelines, LLM Fine-tuning, Prompt Engineering
+  3. Machine Learning Engineer - Two Six Technologies | Ellicott City, Maryland, United States | $142K-$196K | Office
+     Skills: Python, PyTorch, Docker, Git, Pandas, scikit-learn
+  4. Machine Learning Engineer - Moloco | Menlo Park or New York or Seattle | Tech Hub
+     Skills: Python, Java, C++, Rust, TensorFlow, PyTorch
+  5. Machine Learning Engineer II - Centene | Remote | $87K-$161K | Laboratory
+     Skills: Python, SQL, Machine Learning, R, Java, JavaScript
+  Active filters: none
+
+================================================================================
+Turn 2
+Query: "at early stage startups"
+Tokens used: 274
+Results: 10 (showing top 5)
+================================================================================
+  1. Product Engineer - Advocate | Remote | Tech Startup
+     Skills: TypeScript, React, Next.js, NX, Node.js, GraphQL
+  2. Platform Engineer - 1848 Ventures | Remote | Startup Hub
+     Skills: Python, SQL, dbt, Prefect, APIs, Testing
+  3. Senior Software Engineer - Overland AI | Seattle, Washington, United States | $200K-$240K | Startup
+     Skills: Python, C++
+  4. Software Engineer - Cartesia | San Francisco, California, United States | $180K-$250K | Tech Startup
+     Skills: AWS, GCP, Azure, Terraform, PostgreSQL, MySQL
+  5. Director of Engineering - Recast | Remote | Tech Startup
+     Skills: Leadership, Rails, AWS, Kubernetes, R, Machine Learning
+  Active filters: startup
+
+================================================================================
+Turn 3
+Query: "senior level only"
+Tokens used: 281
+Results: 10 (showing top 5)
+================================================================================
+  1. Senior Software Engineer - Overland AI | Seattle, Washington, United States | $200K-$240K | Startup
+     Skills: Python, C++
+  2. Software Engineer - Cartesia | San Francisco, California, United States | $180K-$250K | Tech Startup
+     Skills: AWS, GCP, Azure, Terraform, PostgreSQL, MySQL
+  3. Director of Engineering - Recast | Remote | Tech Startup
+     Skills: Leadership, Rails, AWS, Kubernetes, R, Machine Learning
+  4. Head of Engineering - Torch Dental | New York, New York, United States | $250K-$325K | Tech Startup
+     Skills: Leadership, Architectural Leadership, SaaS, Cross-functional Collaboration, Backend, Frontend
+  5. Sr. Software Engineer, Infra - Jerry.ai | Palo Alto or Toronto or New York or Boston or Austin or Denver or Los Angeles | $170K-$220K | Tech Startup
+     Skills: AWS, Kubernetes, Terraform, Python, Golang, NodeJS
+  Active filters: senior, startup
+
+================================================================================
+FINAL TOKEN USAGE REPORT
+================================================================================
+
+Single-turn searches (6 queries): 2,415 tokens
+Multi-turn refinements (6 turns):  1,556 tokens
+Total demo tokens:                 3,971 tokens
+
+Estimated cost (GPT-4o-mini): $0.0006
+Average per single-turn search:    402 tokens
+Average per refinement turn:       259 tokens
+
+Total tokens used: 3,971
+
+By operation:
+  embedding: 54 tokens
+  filter_extraction: 1,798 tokens
+  reranking: 1,015 tokens
+  intent_parsing: 1,104 tokens
+
+Token report saved to tokens_report.md

@@ -1,0 +1,191 @@
+Loading dataset...
+Loaded 100,000 jobs in 57.9s
+
+
+################################################################################
+# DEMO 1: SINGLE-TURN SEARCHES
+################################################################################
+
+================================================================================
+Query: "senior software engineer remote"
+Tokens used: 204
+Results: 10 (showing top 5)
+================================================================================
+  1. Senior Full Stack Software Engineer - Unknown
+  2. Senior Full Stack Software Engineer - Unknown
+  3. Senior Engineer - Unknown
+  4. Senior Software Engineer - Unknown
+  5. Senior Full Stack Software Engineer - Unknown
+  Running total: 204 tokens
+
+================================================================================
+Query: "data science internships"
+Tokens used: 193
+Results: 10 (showing top 5)
+================================================================================
+  1. Data Scientist Intern  - Unknown
+  2. Cyber Risk Data Science Intern - Unknown
+  3. Data Science Intern (Boston, MA, US, 02110) - Unknown
+  4. Intern - Data Science - Unknown
+  5. Data & Research Intern - Unknown
+  Running total: 397 tokens
+
+================================================================================
+Query: "product manager roles at early stage startups"
+Tokens used: 205
+Results: 10 (showing top 5)
+================================================================================
+  1. Managing Director, Product Management - Unknown
+  2. Staff Product Manager, AI/ML - Unknown
+  3. Product Manager - Unknown
+  4. Vice President, Product Management  - Unknown
+  5. Senior Product Marketing Manager, Platform - Unknown
+  Running total: 602 tokens
+
+================================================================================
+Query: "backend engineer jobs in New York paying over 150k"
+Tokens used: 214
+Results: 10 (showing top 5)
+================================================================================
+  1. Senior Software Engineer (Full Stack, Backend-leaning) - Unknown
+  2. Senior Software Engineer - MetaMask (Networks) - Unknown
+  3. Backend Developer  - Unknown
+  4. Staff Engineer - Financial Products - Unknown
+  5. Principal Full Stack Engineer - Unknown
+  Running total: 816 tokens
+
+================================================================================
+Query: "entry level design roles"
+Tokens used: 195
+Results: 10 (showing top 5)
+================================================================================
+  1. Associate Designer, All In Motion - Womens/Girls Apparel - Unknown
+  2. Design Professional, 2026 Recent Grads - Columbus Studio - Unknown
+  3. Digital Design Intern  - Remote - Unknown
+  4. Senior UX Designer (Onsite in DC Area) - Unknown
+  5. Associate Designer, Handbags, Accessories, SLGs - Unknown
+  Running total: 1011 tokens
+
+================================================================================
+Query: "mission-driven nonprofit data roles"
+Tokens used: 592
+Results: 10 (showing top 5)
+================================================================================
+  1. Donor Data Specialist (Internal) - Unknown
+  2. Director, Development Operations - Unknown
+  3. Annual Giving Manager - Unknown
+  4. Grant Coordinator - Unknown
+  5. Sr. Partnerships Manager, Faith & Missions - Unknown
+  Running total: 1603 tokens
+
+################################################################################
+# DEMO 2: MULTI-TURN REFINEMENT FLOWS
+################################################################################
+
+--------------------------------------------------------------------------------
+Flow 1: Data Science -> Social Good -> Remote
+--------------------------------------------------------------------------------
+
+================================================================================
+Turn 1
+Query: "data science jobs"
+Tokens used: 575
+Results: 10 (showing top 5)
+================================================================================
+  1. Data Scientist II, Commercial &amp; Medical Analytics - Unknown
+  2. Senior Data Scientist (Public Trust) - Unknown
+  3. Data Scientist 3 - MLOps - Unknown
+  4. Senior Data Scientist - Unknown
+  5. Data Scientist III - Unknown
+  Active filters: none
+
+================================================================================
+Turn 2
+Query: "at companies or non-profits that care about social good"
+Tokens used: 293
+Results: 10 (showing top 5)
+================================================================================
+  1. Senior Data Scientist (Public Trust) - Unknown
+  2. Future Opportunity - Principal Consultant (AI Workforce - Snowflake Intelligence) - Unknown
+  3. Data Scientist - Unknown
+  4. Senior Data Engineer (Public Trust) - Unknown
+  5. Data Scientist 3 - MLOps - Unknown
+  Active filters: nonprofit
+
+================================================================================
+Turn 3
+Query: "make it remote"
+Tokens used: 304
+Results: 10 (showing top 5)
+================================================================================
+  1. Future Opportunity - Principal Consultant (AI Workforce - Snowflake Intelligence) - Unknown
+  2. Senior Data Scientist (Public Trust) - Unknown
+  3. Staff Engineer, AI Engineering - Unknown
+  4. Data Scientist - Unknown
+  5. Future Opportunity - Senior Consultant (AI Workforce) - Unknown
+  Active filters: remote, nonprofit
+
+--------------------------------------------------------------------------------
+Flow 2: ML Engineer -> Startups -> Senior
+--------------------------------------------------------------------------------
+
+================================================================================
+Turn 1
+Query: "machine learning engineer"
+Tokens used: 600
+Results: 10 (showing top 5)
+================================================================================
+  1. Machine Learning Engineer  - Unknown
+  2. Staff Machine Learning Engineer  - Unknown
+  3. Senior Machine Learning Engineer - Unknown
+  4. Machine Learning Engineer II - Unknown
+  5. Senior Machine Learning Engineer II - Unknown
+  Active filters: none
+
+================================================================================
+Turn 2
+Query: "at early stage startups"
+Tokens used: 278
+Results: 10 (showing top 5)
+================================================================================
+  1. Research Infrastructure Engineer, Research Acceleration - Unknown
+  2. AI Engineer II - Unknown
+  3. Staff Machine Learning Engineer  - Unknown
+  4. Software Engineer, Research Acceleration - Unknown
+  5. Staff Engineer, AI Engineering - Unknown
+  Active filters: startup
+
+================================================================================
+Turn 3
+Query: "senior level only"
+Tokens used: 292
+Results: 10 (showing top 5)
+================================================================================
+  1. Staff Machine Learning Engineer  - Unknown
+  2. Senior Machine Learning Engineer - Unknown
+  3. Senior Machine Learning Engineer  - Unknown
+  4. Senior Machine Learning Engineer II - Unknown
+  5. Senior Machine Learning Engineer II - Unknown
+  Active filters: senior, startup
+
+================================================================================
+FINAL TOKEN USAGE REPORT
+================================================================================
+
+Single-turn searches (6 queries): 1,603 tokens
+Multi-turn refinements (6 turns):  2,342 tokens
+Total demo tokens:                 3,945 tokens
+
+Estimated cost (GPT-4o-mini): $0.0006
+Average per single-turn search:    267 tokens
+Average per refinement turn:       390 tokens
+
+Total tokens used: 3,945
+
+By operation:
+  embedding: 90 tokens
+  filter_extraction: 1,544 tokens
+  reranking: 1,192 tokens
+  intent_parsing: 1,119 tokens
+
+Token report saved to tokens_report.md
